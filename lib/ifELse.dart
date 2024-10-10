@@ -17,3 +17,4 @@ void usingIfElse() {
     print('enter the right marks');
   }
 }
+// nested if else statement
