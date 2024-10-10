@@ -1,7 +1,7 @@
 void usingIfElse() {
   int marks = 67;
-  bool isOkay = marks < 100 && marks > 0;
-  if (isOkay) {
+  bool isWrongaInput = marks > 100 || marks < 0;
+  if (!isWrongaInput) {
     if (marks >= 75) {
       print('A');
     } else if (marks >= 65) {
